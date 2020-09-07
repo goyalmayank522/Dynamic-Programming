@@ -11,7 +11,6 @@ int max(int a,int b){
     }
 }
 void lcs(char w[],char p[],int w_len,int p_len){
-    int ins,del;
     for(int i=1;i<w_len+1;i++){
         for(int j=1;j<p_len+1;j++){
             if(w[i-1]==p[j-1]){
